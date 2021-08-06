@@ -10,6 +10,10 @@ html {
 body {
   background-color: #202020;
 }
+
+a {
+  text-decoration: none;
+}
 .container {
   min-height: 100vh;
   color: #dedede;
@@ -206,23 +210,22 @@ ul li a:hover::after {
   display: flex;
 }
 .social_link a {
-  display: block;
-  width: 30px;
-  height: 30px;
+  display: flex;
+  width: 40px;
+  height: 40px;
   border: 1px solid #17d3e6;
   margin-top: 2rem;
   margin-right: 1rem;
   background-color: transparent;
   border-radius: 5px;
+  color: #dedede;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
   -webkit-transition: all 0.5 ease;
   transition: all 0.5s ease;
 }
 .social_link .fa {
-  display: flex;
-  height: 28px;
-  color: #dedede;
-  justify-content: center;
-  align-items: center;
 }
 .social_link a:hover {
   background-color: #17d3e6;
